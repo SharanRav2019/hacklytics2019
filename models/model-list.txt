@@ -19,3 +19,9 @@ https://www.kaggle.com/kmader/colorectal-histology-mnist
 Pulmonary Chest X-Ray Abnormalities
 https://www.kaggle.com/kmader/pulmonary-chest-xray-abnormalities/home
 
+Cervical Cancer Risk Classification
+https://www.kaggle.com/loveall/cervical-cancer-risk-classification
+
+Autism Screening
+https://www.kaggle.com/faizunnabi/autism-screening
+
