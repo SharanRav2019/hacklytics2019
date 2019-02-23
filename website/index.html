@@ -1,36 +1,61 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Medical AI</title>
-	<meta name="name" content="Stefan Abi-Karam">
-	<meta name="description" content="Medical AI Web App">
-	<meta name="keywords" content="medical,machine learning,georgia tech,data science,doctor,patient">
-	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<meta name="theme-color" content="#ffffff" />
-
-
-
-	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-	
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-
-	
-	
-	<link rel="stylesheet" href="stylesheet.css" type="text/css">
-	<script src="app.js" defer></script>
-
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
-	<div id="main-wrapper">
+  <div class="header">
+  <h1>DataMed</h1>
+</div>
+<div class="row">
+  <div class="column" style="background-color:#f;">
+    <h2>Patient Data</h2>
+</head>
+<body>
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">Current Patients</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+<ul id="myUL">
+  <li>Sharan Ravigopal</li>
+  <text>Add Some Patients!</text>
+  </ul>
+</body>
+    
+  </div>
+  <div class="column" style="background-color:#f;">
+    <h2>Models</h2>
+     <li2>
+      <img src="http://lorempixum.com/100/100/nature/1" >
+      <h3 type = "button" onclick="alert('Hello world!')">EKG heartbeat Classification</h3>
+      <p>Segmented and Preprocessed ECG Signals for Heartbeat Classification</p>
+    </li2>
+      
+    <li2>
+      <img src="http://lorempixum.com/100/100/nature/2" >
+      <h3 type = "button" onclick="alert('Hello world!')">Autism Screening</h3>
+      <p>Checks the autism chance by using age, asdf.etc....</p>
+    </li2>
 
-	</div>
+    <li2>
+      <img src="http://lorempixum.com/100/100/nature/3" >
+      <h3 type = "button" onclick="alert('Hello world!')">NIH Chest X-Ray Classification</h3>
+      <p>Llt.</p>
+    </li2>
 
+    <li2>
+      <img src="http://lorempixum.com/100/100/nature/4" >
+      <h3 type = "button" onclick="alert('Hello world!')">Cuff-Less Blood Pressure Estimation</h3>
+      <p>Loret.</p>
+    </li2>
+  </div>
+  <div class="column" style="background-color:#f;">
+    <h2>Data Analysis</h2>
+    <p>Here it is!:</p>
+  </div>
+</div>
 
 </body>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>
