@@ -1,0 +1,21 @@
+EKG heartbeat clasification
+https://www.kaggle.com/shayanfazeli/heartbeat/home
+
+DDSM Mammograph
+https://www.kaggle.com/skooch/ddsm-mammography/home
+
+Random Sample of NIH Chest X-ray Dataset
+https://www.kaggle.com/nih-chest-xrays/sample#sample_labels.csv
+
+MIAS Mammography
+https://www.kaggle.com/kmader/mias-mammography/home
+
+Cuff-Less Blood Pressure Estimation
+https://www.kaggle.com/mkachuee/BloodPressureDataset/home
+
+Colorectal Histology MNIST
+https://www.kaggle.com/kmader/colorectal-histology-mnist
+
+Pulmonary Chest X-Ray Abnormalities
+https://www.kaggle.com/kmader/pulmonary-chest-xray-abnormalities/home
+
